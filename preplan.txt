@@ -1,0 +1,41 @@
+General Planning - No Psuedocode
+
+
+goal:
+
+16x16 grid with adjustability up to 64x64 minimum
+options and a rainbow mode
+
+
+ui:
+
+simple header with the title
+footer with github & twitter
+16x16 grid container on the ride side as shown in mockup.txt
+controls on the left side with good spacing to not be awkward
+
+
+features to implement:
+
+dark/light mode
+moving background
+unique design
+rainbow mode
+sliders or on-screen ways to change block preference
+
+
+things to learn:
+
+making the 16x16 using JavaScript
+more extensive use of DOM Manipulation
+rainbow mode
+semantic HTML
+
+
+personal improvement goals:
+
+better understanding of functions in JavaScript
+code that is understandable without comments
+semantic HTML to ensure good future habits, i've started to become a div troll
+watch some videos about psuedocode to get a better understanding for future projects
+less usage of display:flex when not required, general understanding of flexbox

@@ -1,0 +1,32 @@
+HTML:
+-------------------------------------------------
+
+header- stores 2 divs, titlecard & homepage(future projects will lead to a portfolio 22' page)
+    homepage: contains 1 button that covers the whole div to ensure accessibility, class = header-button
+
+main- 2 center divs to split the page in two, class = container
+    controls: clear grid button, change size slider/button, rainbow mode button
+    etch: further research required, just seperate to the side for now
+
+footer- 2 buttons that link to twitter and github
+    github: links to respective site
+    twitter: links to respective site    
+
+switched to CSS process.
+
+
+CSS:
+-------------------------------------------------
+header- 
+    looked up how to make using flexbox since its been a minute
+    determined that a background color on the HTML instead of white would make the UI fit modern conventions
+    looked up a good palette
+    forgot to link my stylesheet... linked js sheet too
+    don't like how it looks so far, but keeping it going and will do further UI once layout is done
+    can't seem to get my footer to set at the bottom... respective
+    fixed.
+    done for tonight, god bless future me for looking at this code.
+
+JS:
+-------------------------------------------------
+
