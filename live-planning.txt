@@ -17,7 +17,7 @@ switched to CSS process.
 
 CSS:
 -------------------------------------------------
-header- 
+page- 
     looked up how to make using flexbox since its been a minute
     determined that a background color on the HTML instead of white would make the UI fit modern conventions
     looked up a good palette
@@ -31,3 +31,16 @@ header-
 JS:
 -------------------------------------------------
 
+function generteGrid(num)-
+    using some searching I learned that we need to make global variables specific
+    determined that I need to add a class to the divs and have the CSS edit the class further upon creation of grids
+        the hover mechanic to change color will be done through the class
+    overall the JS should be easily kept within 1-3 functions:
+        creating divs
+        removing color from divs by resetting the class(?)
+        add more grids using num
+    css will end up:
+        altering color of divs(?), should be possible with onhover or using JS alternativeF
+        removing color from divs by resetting each background color (?)
+
+    for now will proceed with looking into how to proceed with creating the loop function to create the 16 divs
