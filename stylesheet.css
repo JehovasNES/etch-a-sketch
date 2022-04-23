@@ -43,8 +43,23 @@ body {
     justify-content: space-between;
 }
 
-.etch {
+.controls {
+    flex-grow: 1;
+    border: 1px solid #5cdb95;
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.control-btn {
+    height: 25px;
+    width: 25px;
+}
+
+.etch {
+    display: auto;
+    flex-grow: 1;
+    border: 1px solid #5cdb95;
 }
 
 footer {

@@ -26,6 +26,7 @@ header-
     can't seem to get my footer to set at the bottom... respective
     fixed.
     done for tonight, god bless future me for looking at this code.
+    finished the background and following. 
 
 JS:
 -------------------------------------------------
