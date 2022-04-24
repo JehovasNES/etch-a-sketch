@@ -93,7 +93,7 @@ footer {
 /* JS Grids */
 .griddy {
     border: 1px solid black;
+    background-color: #5cdb95;
     height: 50px;
     width: 50px;
-    background-color: #5cdb95;
 }

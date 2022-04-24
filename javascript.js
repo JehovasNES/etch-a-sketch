@@ -1,18 +1,18 @@
-function generateGrid(num) {
+function generateGrid(totalCells) {
 
     const container = document.querySelector('#etch');
 
-    for(let gen = num; gen < 256; gen++) {
+    for(let gen = 0; gen < totalCells; gen++) {
         let grid = document.createElement('div')
         grid.classList.add('griddy');
         container.appendChild(grid);
     }
 }
 
-num = 0;
+userInput = 16;
+totalCells = userInput**2;
 
-generateGrid(num);
-
+generateGrid(totalCells);
 
 
 const hoverBlack = document.querySelectorAll('.griddy');
