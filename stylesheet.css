@@ -17,7 +17,7 @@ body {
     background-color: #5cdb95;
     color: #05386B;
     font-size: larger;
-    height: 150px;
+    height: 75px;
     border: 2px solid #5cdb95;
 }
 
@@ -58,10 +58,12 @@ body {
 
 #etch {
     display: flex;
-    flex-grow: 1;
     border: 1px solid #5cdb95;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
+    padding-top: 20px;
+    height: 960px;
+    width: 960px;
 }
 
 footer {
@@ -86,8 +88,11 @@ footer {
     padding-left: 10px;
 }
 
+
+/* JS Grids */
 .griddy {
     border: 1px solid black;
     width: 50px;
     height: 50px;
+    border-spacing: 0px;
 }

@@ -43,4 +43,4 @@ function generteGrid(num)-
         altering color of divs(?), should be possible with onhover or using JS alternativeF
         removing color from divs by resetting each background color (?)
 
-    for now will proceed with looking into how to proceed with creating the loop function to create the 16 divs
+    for now will proceed with looking into how to proceed with creating the loop function to create the 256 divs
