@@ -12,3 +12,12 @@ function generateGrid(num) {
 num = 0;
 
 generateGrid(num);
+
+
+
+const hoverBlack = document.querySelectorAll('.griddy');
+hoverBlack.forEach(function blackCube(hoverBlack) {
+    hoverBlack.addEventListener('mouseover', function() {
+        hoverBlack.style.cssText = "background-color: white;"
+    })
+});

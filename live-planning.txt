@@ -51,4 +51,16 @@ Current Events with Tom 04/23 19:40
 -------------------------------------------------
     the method used for getting the cubes into the block is brute forced using measurements, will fix later so that it works consistently.
     jank method #34: creating a 3rd div for the layout because I have determined that the etch being centered looks way better, really regretting wanting to be "fancy"
-    
+
+
+Current Events with Tom 04/24 13:53
+-------------------------------------------------
+    adding onmousehover to the site, probably will be done
+    doing this through onmouseover function that will add black to the stylesheet(?)
+
+    hoverBlack.forEach(function(input) {
+    input.addEventListener('mouseover', function hover() {
+        div.style.cssText = "background-color: white;"
+    });
+});
+  
