@@ -44,3 +44,11 @@ function generteGrid(num)-
         removing color from divs by resetting each background color (?)
 
     for now will proceed with looking into how to proceed with creating the loop function to create the 256 divs
+    completed the div generation and need to create the onhover effect to make them black.
+
+
+Current Events with Tom 04/23 19:40
+-------------------------------------------------
+    the method used for getting the cubes into the block is brute forced using measurements, will fix later so that it works consistently.
+    jank method #34: creating a 3rd div for the layout because I have determined that the etch being centered looks way better, really regretting wanting to be "fancy"
+    
