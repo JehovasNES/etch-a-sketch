@@ -46,13 +46,17 @@ body {
 .controls {
     border: 1px solid #5cdb95;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
+    flex-direction: column;
 }
 
 .control-btn {
-    height: 25px;
-    width: 25px;
+    height: 200px;
+    width: 200px;
+    background-color: #5cdb95;
+    font-size: large;
+    font-family: 'Tapestry', cursive;
 }
 
 #etch {

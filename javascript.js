@@ -2,19 +2,19 @@ function generateGrid(totalCells) {
 
     const container = document.querySelector('#etch');
 
-    for(let gen = 0; gen < totalCells; gen++) {
+    for(let gen = 0; gen < totalCells**2; gen++) {
         let grid = document.createElement('div')
         grid.classList.add('griddy');
         container.appendChild(grid);
     }
 }
 
-userInput = 16;
-totalCells = userInput**2;
+totalCells = 16;
 
 generateGrid(totalCells);
 
 
+//change squares to white for etching and sketching
 const hoverBlack = document.querySelectorAll('.griddy');
 hoverBlack.forEach(function blackCube(hoverBlack) {
     hoverBlack.addEventListener('mouseover', function() {

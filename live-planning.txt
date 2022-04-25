@@ -58,9 +58,13 @@ Current Events with Tom 04/24 13:53
     adding onmousehover to the site, probably will be done
     doing this through onmouseover function that will add black to the stylesheet(?)
 
-    hoverBlack.forEach(function(input) {
-    input.addEventListener('mouseover', function hover() {
-        div.style.cssText = "background-color: white;"
-    });
-});
-  
+    got some help in the Discord, however, I think I'm going to remain stumped for the time being.
+    taking a break to get some distance 
+
+
+
+Current Events with Tom 04/25 13:49
+-------------------------------------------------
+
+    Need to make a function that changes the size of the cells to fit within each side
+        basing on the side and how many will fit within the side.
