@@ -9,6 +9,8 @@ function generateGrid(totalCells) {
     }
 }
 
+
+//function exponentiates by 2 to get real total(eg. 16^2)
 totalCells = 16;
 
 generateGrid(totalCells);
@@ -21,3 +23,14 @@ hoverBlack.forEach(function blackCube(hoverBlack) {
         hoverBlack.style.cssText = "background-color: white;"
     })
 });
+
+//works in the jankiest way, it actually just adds more grids to the container :/
+const gridChangeBtn = document.querySelector('.grid-gen');
+gridChangeBtn.addEventListener('click', function() {
+    const userGrid = Number(window.prompt('Enter a number, 1-100', ""));
+    totalCells = userGrid;
+    generateGrid(totalCells);
+})
+
+//function to clear grid, changes background color
+const gridClear = document.querySelector('.clear')
