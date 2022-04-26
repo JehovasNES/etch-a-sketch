@@ -10,9 +10,8 @@ function cellSize(container, totalCells) {
     document.querySelectorAll('.griddy').forEach(function(e) {e.style.width = cellWidth + 'px';})
 };
 
-//working function, leave alone, unless changes are necessary, document on commit when changes are done
-function generateGrid(totalCells) {
 
+function generateGrid(totalCells) {
 
     for(let gen = 0; gen < totalCells**2; gen++) {
         let grid = document.createElement('div')
@@ -22,24 +21,13 @@ function generateGrid(totalCells) {
     }
 }
 
-/* psuedo function to remove old griddy cells onclick
-
-function removeCells() {
-    access the container with a variable
-    remove the cells from the grid via forEach()
-    once removed generateGrid is run through onClick
-}
-*/
-
-
 //function exponentiates by 2 to get real total(eg. 16^2)
 totalCells = 16;
 generateGrid(totalCells);
 
-/* temp cut since it is causing more harm while working on cellSize
 
-change squares to white for etching and sketching
-this function will no longer work after the grid has been changes, not sure why
+
+/* buggy and non-functional, needs to be updated to stop removing previous values
 const hoverBlack = document.querySelectorAll('.griddy');
 hoverBlack.forEach(function blackCube(hoverBlack) {
    hoverBlack.addEventListener('mouseover', function() {
@@ -48,7 +36,6 @@ hoverBlack.forEach(function blackCube(hoverBlack) {
 });
 */
 
-
 //works in the jankiest way, it actually just adds more grids to the container :/
 const gridChangeBtn = document.querySelector('.grid-gen');
 gridChangeBtn.addEventListener('click', function() {
@@ -56,7 +43,4 @@ gridChangeBtn.addEventListener('click', function() {
     totalCells = userGrid;
     generateGrid(totalCells);
 })
-
-//function to clear grid, changes background color
-const gridClear = document.querySelector('.clear')
 

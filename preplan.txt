@@ -39,3 +39,14 @@ code that is understandable without comments
 semantic HTML to ensure good future habits, i've started to become a div troll
 watch some videos about psuedocode to get a better understanding for future projects
 less usage of display:flex when not required, general understanding of flexbox
+
+
+
+/* psuedo function to remove old griddy cells onclick
+
+function removeCells() {
+    access the container with a variable
+    remove the cells from the grid via forEach()
+    once removed generateGrid is run through onClick
+}
+*/
