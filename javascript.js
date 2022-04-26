@@ -28,6 +28,7 @@ hoverBlack.forEach(function blackCube(hoverBlack) {
 const gridChangeBtn = document.querySelector('.grid-gen');
 gridChangeBtn.addEventListener('click', function() {
     const userGrid = Number(window.prompt('Enter a number, 1-100', ""));
+
     totalCells = userGrid;
     generateGrid(totalCells);
 })

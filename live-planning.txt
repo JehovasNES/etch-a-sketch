@@ -68,3 +68,5 @@ Current Events with Tom 04/25 13:49
 
     Need to make a function that changes the size of the cells to fit within each side
         basing on the side and how many will fit within the side.
+
+        total cells / container(height+width) = total cell size per side
