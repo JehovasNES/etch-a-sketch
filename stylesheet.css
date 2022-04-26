@@ -65,8 +65,8 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     padding: 5px;
-    height: 832px;
-    width: 832px;
+    height: 850px;
+    width: 850px;
     justify-content: center;
     align-items: center;
 }
@@ -98,6 +98,4 @@ footer {
 .griddy {
     border: 1px solid black;
     background-color: #5cdb95;
-    height: 50px;
-    width: 50px;
 }
