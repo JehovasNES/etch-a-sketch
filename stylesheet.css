@@ -99,3 +99,7 @@ footer {
     border: 1px solid black;
     background-color: #5cdb95;
 }
+
+.color-white {
+    background-color: white;
+}

@@ -12,7 +12,6 @@ function cellSize(container, totalCells) {
 
 
 function generateGrid(totalCells) {
-
     for(let gen = 0; gen < totalCells**2; gen++) {
         let grid = document.createElement('div')
         grid.classList.add('griddy');
@@ -25,16 +24,13 @@ function generateGrid(totalCells) {
 totalCells = 16;
 generateGrid(totalCells);
 
-
-
-/* buggy and non-functional, needs to be updated to stop removing previous values
+//add white class on hover
 const hoverBlack = document.querySelectorAll('.griddy');
 hoverBlack.forEach(function blackCube(hoverBlack) {
    hoverBlack.addEventListener('mouseover', function() {
-       hoverBlack.style.cssText = "background-color: white;"
+    hoverBlack.classList.add('color-white');
    })
 });
-*/
 
 //works in the jankiest way, it actually just adds more grids to the container :/
 const gridChangeBtn = document.querySelector('.grid-gen');
@@ -44,3 +40,13 @@ gridChangeBtn.addEventListener('click', function() {
     generateGrid(totalCells);
 })
 
+//clear screen function
+function clearScreen() {
+    hoverBlack.forEach(function blackCube(hoverBlack) {
+        hoverBlack.classList.remove('color-white');
+    })
+}
+
+//clear screen button
+const gridClearBtn = document.querySelector('.clear');
+gridClearBtn.addEventListener('click', () => clearScreen());
