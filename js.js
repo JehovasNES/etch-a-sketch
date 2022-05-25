@@ -1,6 +1,6 @@
 //selectors
 const container = document.getElementById('etch');
-const hover = document.querySelectorAll('.griddy');
+const hover = document.getElementsByClassName('griddy');
 const gridChangeBtn = document.querySelector('.grid-gen');
 const gridClearBtn = document.querySelector('.clear');
 
@@ -13,14 +13,15 @@ function generateGrid(totalCells = 16) {
         grid.classList.add('griddy');
         container.appendChild(grid);
         cellSize(container, totalCells);
+        onHover();
     }
 }
 
 
 function onHover() {
-    hover.forEach(function blackCube(hover) {
-        hover.addEventListener('mouseover', function() {
-        hover.classList.add('color-white');
+    Array.from(hover).forEach(e => {
+        e.addEventListener('mouseover', function() {
+        e.classList.add('color-white');
    })
 });
 };
@@ -35,7 +36,6 @@ function clearScreen() {
     hoverBlack.forEach(function blackCube(hoverBlack) {
         hoverBlack.classList.remove('color-white');
     })
-    
 }
 
 function removeGrid() {
